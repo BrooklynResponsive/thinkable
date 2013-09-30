@@ -498,6 +498,106 @@ p.manifestoBrand {
 	margin-bottom: 3em;
 }
 
+#progContainer {
+	background: #373737;
+}
+
+#progContainer h1{
+    color: #FEA634;
+    font-size: 4em;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 0.7em;
+    text-transform: capitalize;
+}
+
+#progContainer h2{
+    color: #FFFFFF;
+    font-size: 1.8em;
+    font-weight: 700;
+	text-transform: uppercase;
+}
+
+#progContainer h2 span{
+    color: #FFFFFF;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+#progContainer h3{
+    color: #FFFFFF;
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#progContainer p{
+    color: #5A6365;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin-bottom: 0.7em;
+}
+
+#progContainer .poweredby{
+	float: right;
+}
+
+#progContainer .icon{
+	color: #FEA634;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#progContainer .icon a{
+	color: #fff;
+}
+
+#progContainer .poweredby .icon {
+	background: #d60000;
+	display:inline-block;
+	height: 100px;
+	width: 100px;
+}
+
+#progContainer .icon a.googleplay{
+	background: #d60000;
+	display:block;
+	height: 100px;
+	width: 100px;
+}
+
+#progContainer .icon a.appstore{
+	background: #d60000;
+	display:block;
+	height: 100px;
+	width: 100px;
+}
+
+#progContainer .step{
+    color: #FFFFFF;
+    font-size: 1.8em;
+    font-weight: 700;
+	padding: 40px 0px 0px 40px;
+    text-transform: uppercase;
+}
+
+#progContainer .step span{
+	display: block;
+    font-size: .5em;
+}
+
+#progBar {
+    background: none repeat scroll 0 0 #4d4b4c;
+    display: block;
+    height: 15px;	
+}
+
+#progBar .progline {
+    background: none repeat scroll 0 0 #fda633;
+    display: block;
+    height: 15px;
+}
+
 @media (min-width: 420px) {
 	.carousel-control p.p-left {
 		margin-top: 50%;
