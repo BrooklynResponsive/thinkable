@@ -500,7 +500,7 @@ p.manifestoBrand {
 
 #progContainer {
 	background: url(../images/progBG.jpg) no-repeat #222;
-	padding: 150px 0 100px;
+	padding: 150px 0 70px;
 }
 
 #progContainer h1{
@@ -510,6 +510,7 @@ p.manifestoBrand {
     font-weight: 700;
 	line-height: 95px;
     margin-bottom: 20px;
+	text-shadow: 2px 0px #FEA634;
 }
 
 #progContainer h2{
@@ -532,7 +533,7 @@ p.manifestoBrand {
 
 #progContainer h3{
     color: #FFFFFF;
-    font-size: 1.8em;
+    font-size: 22px;
     font-weight: 700;
 	margin-top: 0px;
 }
@@ -565,6 +566,10 @@ p.manifestoBrand {
 	padding-right: 205px;
 	padding-top: 55px;
 	min-height: 640px;
+}
+
+#progContainer .col-md-7 {
+	width: 57.3333%;	
 }
 
 #progContainer .progright {
@@ -612,7 +617,7 @@ p.manifestoBrand {
 }
 
 #progContainer #progBottom {
-	margin-top: 90px;
+	margin-top: 60px;
 }
 
 #progContainer #progBottom .col {
