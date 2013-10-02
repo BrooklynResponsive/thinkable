@@ -572,10 +572,6 @@ p.manifestoBrand {
 	width: 57.3333%;	
 }
 
-#progContainer .col-xs-12 {
-	width: 100%;
-}
-
 #progContainer .progright {
 	padding-top: 55px;
 }
@@ -776,6 +772,11 @@ p.manifestoBrand {
 		border-bottom: 1px dotted #5F5F5F;
 		padding-right: 15px;	
 	}
+	
+#progContainer .col-xs-12 {
+	width: 100%;
+}
+
 }
 
 @media (max-width: 490px) {
