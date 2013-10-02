@@ -816,6 +816,9 @@ p.manifestoBrand {
   #introPromo {
 	  margin-top:1em;
   }
+  #progContainer {
+    background-image: none;
+  }
   #messageContainer {
     padding:2em !important;
     background-image: none;
