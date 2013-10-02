@@ -540,7 +540,7 @@ p.manifestoBrand {
 
 #progContainer h4{
     color: #fea634;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
 	margin: 30px 0px;
 }
@@ -570,6 +570,10 @@ p.manifestoBrand {
 
 #progContainer .col-md-7 {
 	width: 57.3333%;	
+}
+
+#progContainer .col-xs-12 {
+	width: 100%;
 }
 
 #progContainer .progright {
