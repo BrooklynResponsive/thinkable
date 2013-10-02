@@ -9,7 +9,11 @@
 	    }
     });
 
-
+	
+	/* progress bar animation */
+	$("#progHolder").waypoint(function() {
+		alert("show");
+	});
 
 
 

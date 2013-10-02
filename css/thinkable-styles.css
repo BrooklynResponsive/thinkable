@@ -499,47 +499,157 @@ p.manifestoBrand {
 }
 
 #progContainer {
-	background: #373737;
+	background: url(../images/progBG.jpg) no-repeat #222;
+	padding: 150px 0 100px;
 }
 
 #progContainer h1{
     color: #FEA634;
-    font-size: 4em;
+    font-size: 108px;
     font-style: italic;
     font-weight: 700;
-    margin-bottom: 0.7em;
-    text-transform: capitalize;
+	line-height: 95px;
+    margin-bottom: 20px;
 }
 
 #progContainer h2{
     color: #FFFFFF;
-    font-size: 1.8em;
+	display: inline-block;
+    font-size: 30px;
     font-weight: 700;
 	text-transform: uppercase;
+	margin: 20px 0px;
+	font-style: italic;
 }
 
 #progContainer h2 span{
     color: #FFFFFF;
-    font-size: .7em;
+    font-size: 12px;
     font-weight: 700;
+	display: block;
+	margin-top: 5px;
 }
 
 #progContainer h3{
     color: #FFFFFF;
     font-size: 1.8em;
-    font-style: italic;
     font-weight: 700;
+	margin-top: 0px;
 }
 
-#progContainer p{
-    color: #5A6365;
-    font-size: 1.4em;
+#progContainer h4{
+    color: #fea634;
+    font-size: 26px;
+    font-weight: 700;
+	margin: 30px 0px;
+}
+
+#progContainer h4 span{
+    color: #fff;
+}
+
+#progContainer .progleft p{
+    color: #fff;
+    font-size: 19px;
     line-height: 1.4em;
-    margin-bottom: 0.7em;
+    margin-bottom: 40px;
+	font-weight: lighter;
 }
 
 #progContainer .poweredby{
 	float: right;
+}
+
+#progContainer .progleft {
+	background:url(../images/prog_divider.png) no-repeat right center;
+	padding-right: 205px;
+	padding-top: 55px;
+	height: 640px;
+}
+
+#progContainer .progright {
+	padding-top: 55px;
+}
+
+#progContainer .progright .downloadicon{
+	background: url(../images/download_icon.png);
+	display: block;
+	height: 55px;
+	margin: 0 auto;
+	width: 55px;
+}
+
+#progContainer .progright .joinicon{
+	background: url(../images/join_icon.png);
+	display: block;
+	height: 57px;
+	margin: 0 auto;
+	width: 57px;
+}
+
+#progContainer .downloadBlock {
+	margin: 0 0 30px;
+}
+
+#progContainer .progright p {
+	color: #b1b1b1;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+#progContainer .progright p a {
+	color: #b1b1b1;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-style:italic;
+}
+
+#progContainer .progright .top {
+	border-bottom: 1px dotted #5f5f5f;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+}
+
+#progContainer #progBottom {
+	margin-top: 90px;
+}
+
+#progContainer #progBottom .col {
+	padding: 0px 70px 0 0;
+}
+
+#progContainer #progBottom .fright {
+	float: right;
+}
+
+#progContainer #progBottom .fleft {
+	float: left;
+}
+
+#progContainer #progBottom .share a{
+    background: none repeat scroll 0 0 #D60000;
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+    width: 40px;
+	margin-right: 15px;
+}
+
+#progContainer #progBottom .share .shareFacebook{
+	background: url(../images/facebook_share_small.png) ;
+}
+
+#progContainer #progBottom .share .shareTwitter{
+	background: url(../images/twitter_share_small.png) ;
+}
+
+#progContainer #progBottom .sharetext {
+    color: #FFFFFF;
+    display: inline-block;
+	font-weight: lighter;
+    vertical-align: middle;
+    width: 175px;
 }
 
 #progContainer .icon{
@@ -560,42 +670,41 @@ p.manifestoBrand {
 }
 
 #progContainer .icon a.googleplay{
-	background: #d60000;
+	background: url(../images/googleplay.png);
 	display:block;
-	height: 100px;
-	width: 100px;
+	height: 68px;
+	width: 177px;
 }
 
 #progContainer .icon a.appstore{
-	background: #d60000;
+	background: url(../images/appstore.png);
 	display:block;
-	height: 100px;
-	width: 100px;
+	height: 68px;
+	width: 175px;
 }
 
-#progContainer .step{
-    color: #FFFFFF;
-    font-size: 1.8em;
-    font-weight: 700;
-	padding: 40px 0px 0px 40px;
-    text-transform: uppercase;
-}
 
-#progContainer .step span{
-	display: block;
-    font-size: .5em;
-}
 
 #progBar {
-    background: none repeat scroll 0 0 #4d4b4c;
+    background: url(../images/progress_bg.png);
     display: block;
     height: 15px;	
+	overflow: hidden;
 }
 
 #progBar .progline {
     background: none repeat scroll 0 0 #fda633;
     display: block;
     height: 15px;
+}
+
+#progBar .progline .end {
+    background: url(../images/progress_bar_bg.png) no-repeat;
+    display: block;
+    float: right;
+    height: 15px;
+    margin-right: -20px;
+    width: 20px;
 }
 
 @media (min-width: 420px) {
