@@ -564,7 +564,7 @@ p.manifestoBrand {
 	background:url(../images/prog_divider.png) no-repeat right center;
 	padding-right: 205px;
 	padding-top: 55px;
-	height: 640px;
+	min-height: 640px;
 }
 
 #progContainer .progright {
@@ -761,8 +761,54 @@ p.manifestoBrand {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width : 1020px) {
+	#progContainer .progleft {
+		background: none;
+		border-bottom: 1px dotted #5F5F5F;
+		padding-right: 15px;	
+	}
+}
 
+@media (max-width: 490px) {
+	#progContainer {
+		padding: 0px 0px 20px;	
+	}
+	
+	#progContainer #progBottom .fright,
+	#progContainer #progBottom .fleft {
+		float: none;	
+	}
+	
+	#progContainer #progBottom {
+		text-align: center;	
+	}
+	
+	#progContainer #progBottom .col {
+		padding: 20px 0px;	
+	}
+	
+	#progContainer .downloadBlock {
+		text-align: center;	
+	}
+	
+	#progContainer .icon {
+		padding: 10px 0px;	
+	}
+	
+	#progContainer h2 {
+		font-size: 20px;	
+	}
+	#progContainer h2 span{
+		font-size: 10px;	
+	}
+	#progContainer .progright p a {
+		display: block;	
+	}
+	
+}
+
+@media (max-width: 400px) {
+	
   #introContainer {
 	  background-image: none !important;
 	  background-color: #2F2F2F;
