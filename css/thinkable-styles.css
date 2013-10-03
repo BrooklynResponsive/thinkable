@@ -856,9 +856,6 @@ p.manifestoBrand {
   #tagline .pull-right {
     float: none !important;
   }
-  #introContainer {
-      background-color: #fff;
-  }
 	#introMain p {
     font-size: 1em;
     margin: 1em 0 2em 0;
