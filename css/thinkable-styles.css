@@ -205,7 +205,7 @@ a.highlight {
 	color:#58f178
 }
 #messageContainer {
-	background:#FFF url(../images/michaelBG.jpg) no-repeat 40% bottom;
+	background:#FFF url(../images/michaelBG.jpg) no-repeat 40% center;
 	/*background:#FFF url(../images/michaelBG.jpg) no-repeat 40% -10%;*/
 	padding-top: 7em;
 	padding-bottom: 3em;
