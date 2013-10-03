@@ -6,7 +6,9 @@ a {cursor: pointer;}
 #introContainer {
 	background-position:center top;
 	background-repeat: no-repeat;
-	background-color: #FFF;
+	background-color: #262626;
+	background-attachment: fixed;
+  /*background-size: cover;*/
 }
 #introBranding {
 	padding:1em;
@@ -204,8 +206,10 @@ a.highlight {
 }
 #messageContainer {
 	background:#FFF url(../images/michaelBG.jpg) no-repeat 40% bottom;
+	/*background:#FFF url(../images/michaelBG.jpg) no-repeat 40% -10%;*/
 	padding-top: 7em;
 	padding-bottom: 3em;
+	background-attachment: fixed;
 }
 #message {
 	padding:1em;
@@ -501,22 +505,24 @@ p.manifestoBrand {
 #progContainer {
 	background: url(../images/progBG.jpg) no-repeat #222;
 	padding: 150px 0 70px;
+	background-attachment: fixed;
+	  background-size: cover;
 }
 
 #progContainer h1{
-    color: #FEA634;
-    font-size: 108px;
-    font-style: italic;
-    font-weight: 700;
-	line-height: 95px;
-    margin-bottom: 20px;
-	text-shadow: 2px 0px #FEA634;
+  color: #FEA634;
+  font-size: 130px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 115px;
+  margin-bottom: 20px;
+  text-shadow: 2px 0px #FEA634;
 }
 
 #progContainer h2{
     color: #FFFFFF;
 	display: inline-block;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
 	text-transform: uppercase;
 	margin: 20px 0px;
@@ -550,11 +556,12 @@ p.manifestoBrand {
 }
 
 #progContainer .progleft p{
-    color: #fff;
-    font-size: 19px;
-    line-height: 1.4em;
-    margin-bottom: 40px;
-	font-weight: lighter;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+  font-weight: lighter;
+  padding-right: 20px;
 }
 
 #progContainer .poweredby{
@@ -573,7 +580,7 @@ p.manifestoBrand {
 }
 
 #progContainer .progright {
-	padding-top: 55px;
+	padding: 55px 25px 15px 25px;
 }
 
 #progContainer .progright .downloadicon{
@@ -661,6 +668,7 @@ p.manifestoBrand {
 	color: #FEA634;
 	display: inline-block;
 	vertical-align: middle;
+	
 }
 
 #progContainer .icon a{
@@ -677,15 +685,17 @@ p.manifestoBrand {
 #progContainer .icon a.googleplay{
 	background: url(../images/googleplay.png);
 	display:block;
-	height: 68px;
-	width: 177px;
+	height: 60px;
+  width: 150px;
+  background-size: cover;
 }
 
 #progContainer .icon a.appstore{
-	background: url(../images/appstore.png);
-	display:block;
-	height: 68px;
-	width: 175px;
+  background: url(../images/appstore.png);
+  display: block;
+  height: 60px;
+  width: 150px;
+  background-size: cover;
 }
 
 
@@ -760,9 +770,9 @@ p.manifestoBrand {
 	}
 }
 @media (max-width: 991px) {
-  #introContainer {
+  /*#introContainer {
 	  background-size: cover;
-  }
+  }*/
 
 }
 
@@ -804,17 +814,52 @@ p.manifestoBrand {
 	#progContainer .icon {
 		padding: 10px 0px;	
 	}
-	
+	#progContainer h1 {
+	  font-size: 4em;
+    line-height: 1em;
+	}
 	#progContainer h2 {
 		font-size: 20px;	
 	}
+
 	#progContainer h2 span{
 		font-size: 10px;	
 	}
+	 #progContainer h4 {
+    font-size: 19px;
+  }
 	#progContainer .progright p a {
 		display: block;	
 	}
-	
+	#progContainer .progleft {
+	  min-height: inherit;
+	  padding-bottom: 40px;
+	}
+	#convo h2,
+  #message h2, 
+  #msgThanks h2,
+  #host h2 {
+    font-size: 3em;
+  }
+  #introMain h1 {
+    font-size: 1.67em;
+    margin: 0 0 1em 0;
+  }
+  #logo {
+    padding: 0.5em 0;
+  }
+  #tagline {
+    padding: 0;
+    font-size: .62em;
+  }
+  
+  #tagline .pull-right {
+    float: none !important;
+  }
+	#introMain p {
+    font-size: 1em;
+    margin: 1em 0 2em 0;
+  }
 }
 
 @media (max-width: 400px) {
@@ -898,6 +943,7 @@ p.manifestoBrand {
   .videoLink img {
 	  max-width: 100%;
   }
+  
 }
 /* OVERRIDE BOOTSTRAP SPACING */
 .nav>li>a {
